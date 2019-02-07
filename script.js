@@ -1,4 +1,4 @@
-document.querySelector('span').addEventListener('click', () => {
+document.querySelector('span').addEventListener('click', function () {
     if (document.querySelector('span').innerHTML === "LET'S BUILD") {
         document.querySelector('span').innerHTML = "LET'S DESTROY";
         document.querySelector('div:nth-of-type(1)').classList.add('home');
